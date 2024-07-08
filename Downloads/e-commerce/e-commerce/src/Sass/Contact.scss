@@ -1,0 +1,51 @@
+.contact__content {
+  font-family: "Raleway", sans-serif;
+}
+
+.text-primary {
+  color: #81c408 !important;
+}
+
+.text-dark {
+  color: #747d88 !important;
+}
+
+.btn.border-secondary {
+  transition: 0.5s;
+  outline: none;
+}
+
+.text-orange {
+  color: #ffb524 !important;
+}
+
+.btn.border-orange:hover {
+  background: #ffb524 !important;
+  color: #fff !important;
+}
+.display-6 {
+  font-size: 2.5rem;
+}
+
+.page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../imags/contact-top-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  .breadcrumb {
+    a {
+      color: #81c408;
+      text-decoration: none;
+    }
+  }
+}
+
+.main_content {
+  font-family: "Raleway", sans-serif;
+}
+.border-orange {
+  border: 1px solid #ffb524 !important;
+}

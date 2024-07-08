@@ -1,0 +1,142 @@
+.tab_view_content {
+  margin-bottom: 60px;
+
+  .nav {
+    @media (max-width: 992px) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .nav-pills .nav-link {
+    width: 130px;
+    background: #f3f6f8;
+    border-radius: 50rem;
+    text-align: center;
+    margin: 0.5rem !important;
+    color: #45595b;
+    &.active {
+      background: #ffb524;
+    }
+  }
+  .card_tab {
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+    @media (max-width: 768px) {
+      margin-top: 50px;
+    }
+
+    &:hover {
+      box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+    }
+
+    .fruit_button {
+      background: #ffb524;
+      width: fit-content;
+      border-radius: 10px;
+      position: absolute;
+      margin-top: 12px;
+      margin-left: 12px;
+      color: #fff;
+      z-index: 3;
+    }
+
+    .image-container {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 10px;
+      @media (max-width: 1200px) {
+        width: 100%;
+        height: auto;
+      }
+
+      img {
+        width: 100% !important;
+        height: auto;
+        transition: transform 0.3s ease;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        object-fit: cover;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+
+    .card_tab_body {
+      border-left: 1px solid #ffb524 !important;
+      border-right: 1px solid #ffb524 !important;
+      border-bottom: 1px solid #ffb524 !important;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+
+      .res-fs-14 {
+        @media (max-width: 992px) {
+          font-size: 14px !important;
+        }
+
+        @media (max-width: 768px) {
+          font-size: 20px !important;
+        }
+      }
+    }
+
+    .btn_add_cart {
+      color: #81c408 !important;
+      border: 1px solid #ffb524;
+      border-radius: 20px;
+      transition: 0.4s ease-in-out;
+      @media (max-width: 992px) {
+        font-size: 11px;
+      }
+      @media (max-width: 768px) {
+        font-size: 15px;
+        padding: 7px 16px !important;
+      }
+      &:hover {
+        border: 1px solid #ffb524;
+        color: #fff !important;
+        background: #ffb524;
+      }
+      i {
+        margin-right: 0.5rem !important;
+        color: #81c408 !important;
+        @media (max-width: 992px) {
+          margin-right: 0.1rem !important;
+        }
+      }
+    }
+
+    .rounded {
+      border-radius: 10px;
+    }
+  }
+  h1 {
+    color: #45595b !important;
+    @media (max-width: 992px) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  h4 {
+    color: #45595b !important;
+  }
+}
+
+.main_content {
+  .fruit_button {
+    background: #ffb524;
+    width: fit-content;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 12px;
+    color: #fff;
+    z-index: 3;
+  }
+}

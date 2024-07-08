@@ -1,0 +1,32 @@
+.shop__details__content {
+  .fruite {
+    .fruite-categorie {
+      .fruite-name {
+        line-height: 40px;
+        a {
+          transition: 0.5s;
+          color: #81c408;
+          text-decoration: none;
+          &:hover {
+            color: #ffb524;
+          }
+        }
+      }
+    }
+  }
+
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #81c408;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
+  }
+}
+
+.text-green {
+  color: #81c408 !important;
+}
+.border-secondary {
+  border-color: #ffb524 !important;
+}

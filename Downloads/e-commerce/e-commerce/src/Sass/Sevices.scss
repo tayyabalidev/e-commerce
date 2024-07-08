@@ -1,0 +1,45 @@
+.service__content {
+  margin-top: 150px;
+  margin-bottom: 150px;
+
+  .service_box {
+    background: #f4f6f8;
+    padding: 50px;
+    border-radius: 10px;
+    .customer__service {
+      height: 100%;
+      text-align: center;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+      padding: 3rem !important;
+      border-radius: 10px;
+      background: #fff;
+      @media (max-width: 992px) {
+        padding: 2rem !important;
+      }
+      @media (max-width: 992px) {
+        height: 95%;
+      }
+      i {
+        color: #ffb524;
+        font-size: 60px;
+        margin-bottom: 25px;
+      }
+      h4 {
+        font-size: 1.5rem;
+        color: #81c408;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 600;
+        @media (max-width: 992px) {
+          font-size: 1rem;
+        }
+      }
+      h1 {
+        color: #45595b;
+        font-weight: 600;
+        font-family: "Raleway", sans-serif;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.shop__contet {
+  .image-container {
+    width: 306px !important;
+    @media (max-width: 992px) {
+      width: 332px !important;
+    }
+    @media (max-width: 768px) {
+      width: 335px !important;
+    }
+    @media (max-width: 500px) {
+      width: 435px !important;
+    }
+  }
+  h4 {
+    font-size: 1.5rem;
+    color: #45595b;
+  }
+  .fruite {
+    .fruite-categorie {
+      .fruite-name {
+        line-height: 40px;
+        a {
+          transition: 0.5s;
+          color: #81c408;
+          text-decoration: none;
+          &:hover {
+            color: #ffb524;
+          }
+        }
+      }
+    }
+  }
+  .bg-orange {
+    background: #ffb524 !important;
+  }
+
+  .image-container {
+    border-radius: 6px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    @media (max-width: 1200px) {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    img {
+      width: 100% !important;
+      height: auto;
+      transition: transform 0.3s ease;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      object-fit: cover;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .card_tab:hover {
+    transition: 0.5s;
+    border-radius: 10px;
+  }
+
+  .card_tab:hover {
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+    background: none;
+  }
+}
+
+.fruite-name {
+  line-height: 40px;
+  a {
+    transition: 0.5s;
+    color: #81c408;
+    text-decoration: none;
+    &:hover {
+      color: #ffb524;
+    }
+  }
+}
+
+.card_tab_body {
+  border-left: 1px solid #ffb524 !important;
+  border-right: 1px solid #ffb524 !important;
+  border-bottom: 1px solid #ffb524 !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+}

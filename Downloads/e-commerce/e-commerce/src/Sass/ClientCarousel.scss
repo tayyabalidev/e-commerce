@@ -1,0 +1,33 @@
+.client__carousel__content {
+  .card {
+    border: none !important;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #f4f6f8 !important;
+  }
+
+  .card-body {
+    padding: 30px;
+    background: #f4f6f8;
+    border: none;
+  }
+
+  .text-center {
+    color: #333;
+  }
+  .client__images {
+    border-radius: 10px !important;
+  }
+  .border-radius {
+    border-radius: 10px;
+  }
+}
+.fill-star {
+  color: #81c408;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  padding: 10px;
+}

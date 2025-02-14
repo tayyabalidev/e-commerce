@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_48" data-name="Rectangle 48" width="32" height="32" transform="translate(819 1231)" fill="#30d158"/>
+    </clipPath>
+  </defs>
+  <g id="ft_icon_03" transform="translate(-819 -1231)" clip-path="url(#clip-path)">
+    <g id="server" transform="translate(819 1231)">
+      <path id="Path_9995" data-name="Path 9995" d="M0,0H32V32H0Z" fill="none"/>
+      <rect id="Rectangle_51" data-name="Rectangle 51" width="24" height="10.667" rx="4" transform="translate(4 5.333)" fill="none" stroke="#30d158" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/>
+      <rect id="Rectangle_52" data-name="Rectangle 52" width="24" height="10.667" rx="4" transform="translate(4 16)" fill="none" stroke="#30d158" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/>
+      <path id="Path_9996" data-name="Path 9996" d="M9.333,10.667v.013" fill="none" stroke="#30d158" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/>
+      <path id="Path_9997" data-name="Path 9997" d="M9.333,21.333v.013" fill="none" stroke="#30d158" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/>
+    </g>
+  </g>
+</svg>
